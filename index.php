@@ -19,7 +19,7 @@ include("method/header.php");
     <br>
     
     <section class="bga">
-        <h2 class="text_cover ml2">Welcome To FixIT</h2>
+        <h2 class="text_cover ml2">Welcome To FIX IT</h2>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>

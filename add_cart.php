@@ -54,7 +54,7 @@ if (isset($_SESSION['user_id'])) {
             $myquery = mysqli_query($con, $sql);
 
             if ($myquery) {
-                echo "<script>alert('" . __('Product has been inserted') . "');</script>";
+                echo "<script>alert('" . __('Product has been added to cart') . "');</script>";
                 echo "<script>window.open('product.php', '_self');</script>";
             } else {
                 echo "<script>alert('" . __('Cannot add product') . "');</script>";

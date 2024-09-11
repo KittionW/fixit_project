@@ -1,26 +1,14 @@
 <?php
 
-$con = mysqli_connect("localhost","root","","fixit");
+// Establish a connection to the database
+$con = mysqli_connect("localhost", "root", "", "fixit");
 
- if(mysqli_connect_errno()){
-  
-//   echo"Failed to connect : " . mysqli_connect_error(); 
-  echo"<script>alert('Cannot Database');</script>"; 
-//   echo"<script>alert('Hello! I am an alert box!" . mysqli_connect_error() . "');</script>"; 
-  
+// Check if the connection was successful
+if (mysqli_connect_errno()) {
+    // Display an alert if the connection failed
+    echo "<script>alert('Cannot connect to the database: " . mysqli_connect_error() . "');</script>";
+    // Optionally, you might want to terminate the script or handle the error appropriately
+    // die("Failed to connect to the database!");
 }
-
-
-// $dbhost = "localhost";
-// $dbuser = "root";
-// $dbpass = "";
-// $dbname = "happyshop";
-
-// if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
-// {
-
-// 	die("failed to connect!");
-// }
-
 
 ?>

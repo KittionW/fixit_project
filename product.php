@@ -12,7 +12,9 @@ include("method/header.php");
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <style>
         /* Add your custom styles here */
@@ -26,8 +28,7 @@ include("method/header.php");
         <h2 class="text1 ml2">Products</h2>
     </section>
 
-    <br>
-    <br>
+    <br><br>
 
     <?php
     $sql = "SELECT * FROM product";
@@ -38,27 +39,30 @@ include("method/header.php");
     <div class="main-product">
         <?php while ($run = mysqli_fetch_array($myquery)) { ?>
             <div class="flexmain">
-                <a href="product_view.php?code=<?php echo $run['product_code']; ?>">
+                <a href="product_view.php?code=<?php echo htmlspecialchars($run['product_code']); ?>">
                     <div class="imga">
-                        <img class="img-control-product" src="image/image_cover/<?php echo htmlspecialchars($run['imagecover']); ?>" alt="Product Image">
+                        <img class="img-control-product"
+                            src="image/image_cover/<?php echo htmlspecialchars($run['imagecover']); ?>"
+                            alt="Product Image">
                     </div>
                     <div class="text-product">
                         <h2><?php echo htmlspecialchars($run['title']); ?></h2>
                         <div class="product-text">
                             <span class="hiia">
-                                <span class="span-pro"><?= __('Description'); ?>:</span> 
+                                <span class="span-pro"><?= __('Description'); ?>:</span>
                                 <?php echo htmlspecialchars($run['description']); ?>
                             </span>
                         </div>
                     </div>
-                    <div class="price"><?php echo number_format($run['price']); ?> <?= __('Baht'); ?></div>
+                    <div class="price">
+                        <?php echo number_format($run['price']); ?> <?= __('Baht'); ?>
+                    </div>
                 </a>
             </div>
         <?php } ?>
     </div>
 
-    <br>
-    <br>
+    <br><br>
 
     <!-- <?php include("method/footer.php"); ?> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
