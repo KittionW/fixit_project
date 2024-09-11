@@ -134,14 +134,15 @@ include("../dir_log/connection.php");
                       <input type="text" name="pr_name" class="form-control" id="Text1" placeholder="Product Name" required />
                     </div>
                     
-                    <div class="form-group">
-                      <label for="">Product Price</label>
-                      <input oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')" type="text" name="pr_price" class="form-control" id="Text1" placeholder="Product Price" required />
-                    </div>
-
+                    
                     <div class="form-group">
                       <label for="">Product Description</label>
                       <input type="text" name="pr_desc" class="form-control" id="Text1" placeholder="Product Description" required />
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="">Product Price</label>
+                      <input oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')" type="text" name="pr_price" class="form-control" id="Text1" placeholder="Product Price" required />
                     </div>
                     <!-- End English Version -->
 
