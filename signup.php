@@ -46,7 +46,6 @@
         <h1 style="text-align: center;">Sign Up</h1>
         <form method="post" class="pt-3">
             <div class="login-form">
-                <br><br>
                 <h3><?= __('Username') ?></h3>
                 <input type="text" placeholder="<?= __('Username') ?>" name="user_name" required /><br>
 
