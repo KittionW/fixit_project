@@ -168,7 +168,6 @@ if (isset($_GET['code'])) {
 </head>
 
 <body>
-    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
     <div style="padding-top: 150px;"></div>
 
     <div class="border_control">
