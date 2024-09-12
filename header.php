@@ -19,7 +19,7 @@ function currentPage($pageName) {
 <section class="overall-nav">
     <div class="container">
         <div class="cover_img">
-            <a href="#"><img src="image/it-logo.png" alt="Logo"></a>
+            <a href="#"><img src="" alt="Logo"></a>
         </div>
         <nav>
             <ul>

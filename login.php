@@ -45,8 +45,6 @@
     }
     ?>
 
-    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
-
     <br><br><br><br><br><br>
 
     <div class="con-login">

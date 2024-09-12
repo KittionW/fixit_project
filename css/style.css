@@ -117,7 +117,7 @@ nav ul li a:hover {
 }
 
 .asasa {
-  background: url('../image/cover-imgfixit.jpg');
+  background: url('');
   height: 400px;
   width: 100%;
   background-size: cover;
@@ -139,7 +139,7 @@ nav ul li a:hover {
 }
 
 section {
-  background: url('../image/cover-imgfixit.jpg');
+  background: url('');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

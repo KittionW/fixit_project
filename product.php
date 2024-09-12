@@ -22,7 +22,6 @@ include("header.php");
 </head>
 
 <body>
-    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
 
     <section class="asasa">
         <h2 class="text1 ml2">Products</h2>

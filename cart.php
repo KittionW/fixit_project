@@ -124,8 +124,6 @@
         $myquery = mysqli_query($con, $sql);
     ?>
 
-    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
-
     <br><br><br><br><br><br>
 
     <div class="container-cart">
