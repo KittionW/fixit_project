@@ -1157,7 +1157,7 @@ form .signup-link a:hover {
   box-sizing: border-box;
   padding-top: 15px;
   padding-bottom: 10%;
-  margin: 5% auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -1210,7 +1210,6 @@ form .signup-link a:hover {
 
 .sign-up {
   color: black;
-  margin-left: -70%;
   cursor: pointer;
   transition: color 0.5s;
 }

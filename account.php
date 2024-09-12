@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Account Page | Happy Shop</title>
+    <title>Account Page | FIX IT</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">

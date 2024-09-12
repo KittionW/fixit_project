@@ -48,6 +48,7 @@
     <br><br><br><br><br><br>
 
     <div class="con-login">
+        <h1 style="text-align: center;">Login</h1>
         <form method="post" class="pt-3">
             <div class="login-form">
                 <h3><?= __('Username') ?></h3>
@@ -57,7 +58,9 @@
                 <br>
                 <input type="submit" value="<?= __('Login') ?>" class="login-button log_btnn" />
                 <br><br>
-                <a href="signup.php" class="sign-up"><?= __('Sign Up!') ?></a>
+                <div>
+                    <p>Do you have account? <a href="signup.php" class="sign-up"><?= __('Sign Up') ?></a></p>
+                </div>
                 <br>
             </div>
         </form>

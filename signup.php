@@ -40,9 +40,10 @@
     }
     ?>
 
-    <br><br><br>
+    <br><br><br><br><br><br><br>
 
     <div class="con-login">
+        <h1 style="text-align: center;">Sign Up</h1>
         <form method="post" class="pt-3">
             <div class="login-form">
                 <br><br>

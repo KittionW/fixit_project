@@ -13,7 +13,7 @@ if (isset($_GET['code'])) {
 <html>
 
 <head>
-    <title>Product detail | Fix</title>
+    <title>Product detail | FIX IT</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
