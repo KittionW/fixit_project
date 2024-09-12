@@ -149,7 +149,6 @@ include("../dir_log/connection.php");
                     <br>
 
                     <button type="submit" class="btn btn-primary mr-2" id="upload">Submit</button>
-                    <button type="reset" class="btn btn-light" onclick="window.location.href='myupload_cover.php'">Cancel</button>
                   </form>
                 </div>
               </div>
