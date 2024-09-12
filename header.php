@@ -1,5 +1,5 @@
 <?php
-require('method/database.php');
+require('database.php');
 
 // Function for localization
 function __($text, $domain = 'default') {

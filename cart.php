@@ -115,7 +115,7 @@
     ?>
 
     <?php
-    include("method/header.php");
+    include("header.php");
 
     if (isset($_SESSION['user_id'])) {
         $user_idd = $_SESSION['user_id'];

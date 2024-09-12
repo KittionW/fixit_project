@@ -1,5 +1,5 @@
 <?php
-include("method/header.php");
+include("header.php");
 ?>
 
 <!DOCTYPE html>
@@ -64,7 +64,6 @@ include("method/header.php");
 
     <br><br>
 
-    <!-- <?php include("method/footer.php"); ?> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="code.js"></script>
 </body>

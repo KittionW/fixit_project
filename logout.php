@@ -9,7 +9,7 @@ if (isset($_SESSION['user_id'])) {
 }
 
 // Redirect to login page
-header("Location: ../login.php");
+header("Location: login.php");
 die;
 
 ?>

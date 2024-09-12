@@ -93,7 +93,7 @@
 
 <body>
     <?php
-    include("method/header.php");
+    include("header.php");
     session_start(); // Start the session
     ?>
 
@@ -138,7 +138,7 @@
                 </div>
             </div>
 
-            <a class="btnlogout" href="method/logout.php"><?= __('Logout') ?></a>
+            <a class="btnlogout" href="logout.php"><?= __('Logout') ?></a>
         </div>
     </div>
 

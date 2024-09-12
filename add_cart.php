@@ -17,7 +17,7 @@ function __($text) {
 ?>
 
 <?php
-require('method/database.php');
+require('database.php');
 session_start();
 error_reporting(E_ALL & ~E_NOTICE); // Hide Notices
 

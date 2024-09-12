@@ -1,5 +1,5 @@
 <?php
-include("method/header.php");
+include("header.php");
 
 if (isset($_GET['code'])) {
     $code_product = $_GET['code'];
