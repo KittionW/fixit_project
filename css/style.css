@@ -19,6 +19,12 @@ body {
   padding: 0;
 }
 
+.total_bb {
+  position: absolute;
+  bottom: 20px;
+  text-transform: uppercase;
+}
+
 .cover_img a img {
   max-height: 120px;
 }
@@ -117,7 +123,7 @@ nav ul li a:hover {
 }
 
 .asasa {
-  background: url('');
+  background: url('../image/shop.png');
   height: 400px;
   width: 100%;
   background-size: cover;
@@ -139,7 +145,7 @@ nav ul li a:hover {
 }
 
 section {
-  background: url('');
+  background: url('../image/shop.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1333,11 +1339,4 @@ form .signup-link a:hover {
     width: 90%;
     display: block;
   }
-}
-
-.total_bb {
-  position: absolute;
-  bottom: 20px;
-  font-size: 25px;
-  text-transform: uppercase;
 }

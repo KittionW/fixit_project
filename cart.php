@@ -103,7 +103,6 @@
         }
 
         .total_bb {
-            font-size: 1.5em;
             font-weight: bold;
         }
     </style>
@@ -178,7 +177,8 @@
         </div>
 
         <div class="d_30">
-            <h1><?= __('Order Summary') ?></h1>
+            <h2><?= __('Order Summary') ?></h2>
+            <br><br>
 
             <?php
             $sql5 = "SELECT SUM(price * quantity) AS total_amount FROM cart WHERE user_id = '$user_idd'";
