@@ -150,13 +150,13 @@
                     </div>
                     <div class="coln">
                         <div class="qtyy-a">
-                            <a href="method/qty_cart.php?id=<?php echo htmlspecialchars($run['cart_id']); ?>&qty=<?php echo htmlspecialchars($run['quantity']); ?>&btn=dd">
+                            <a href="qty_cart.php?id=<?php echo htmlspecialchars($run['cart_id']); ?>&qty=<?php echo htmlspecialchars($run['quantity']); ?>&btn=dd">
                                 <button class="b1">
                                     <i class="fas fa-minus"></i>
                                 </button>
                             </a>
                             <input id="form1" min="0" name="quantity" value="<?php echo htmlspecialchars($run['quantity']); ?>" type="text" readonly />
-                            <a href="method/qty_cart.php?id=<?php echo htmlspecialchars($run['cart_id']); ?>&qty=<?php echo htmlspecialchars($run['quantity']); ?>&btn=aa">
+                            <a href="qty_cart.php?id=<?php echo htmlspecialchars($run['cart_id']); ?>&qty=<?php echo htmlspecialchars($run['quantity']); ?>&btn=aa">
                                 <button class="b2">
                                     <i class="fas fa-plus"></i>
                                 </button>
@@ -164,7 +164,7 @@
                         </div>
                         <span>฿<?php echo number_format($run['price'] * $run['quantity']); ?></span>
                         <span>
-                            <a class="timeew" href="method/delete_cart.php?id=<?php echo htmlspecialchars($run['cart_id']); ?>">
+                            <a class="timeew" href="delete_cart.php?id=<?php echo htmlspecialchars($run['cart_id']); ?>">
                                 <i class="fas fa-times"></i>
                             </a>
                         </span>

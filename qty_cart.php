@@ -16,10 +16,10 @@ if ($btn == "aa") {
 
     // Check if the query was successful and redirect
     if ($myquery) {
-        echo "<script>window.open('../cart.php', '_self');</script>";
+        echo "<script>window.open('cart.php', '_self');</script>";
     } else {
         echo "<script>alert('Cannot Add');</script>";
-        echo "<script>window.open('../cart.php', '_self');</script>";
+        echo "<script>window.open('cart.php', '_self');</script>";
     }
 
 } elseif ($btn == "dd") {
@@ -36,14 +36,14 @@ if ($btn == "aa") {
 
         // Check if the query was successful and redirect
         if ($myquery) {
-            echo "<script>window.open('../cart.php', '_self');</script>";
+            echo "<script>window.open('cart.php', '_self');</script>";
         } else {
             echo "<script>alert('Cannot Deduct');</script>";
-            echo "<script>window.open('../cart.php', '_self');</script>";
+            echo "<script>window.open('cart.php', '_self');</script>";
         }
     } else {
         // Redirect if quantity is 1
-        echo "<script>window.open('../cart.php', '_self');</script>";
+        echo "<script>window.open('cart.php', '_self');</script>";
     }
 }
 ?>
