@@ -28,7 +28,7 @@ include("header.php");
 
     <div class="overall-top-art">
         <h1 class="top-headtxt">FIX IT</h1>
-        <img class="p-img" src="" alt="Img1" />
+        <img class="p-img" src="image\logo-nobackground.png" alt="Img1" />
         <p class="top-paragrah-about">
             <h2>ร้านคอมพิวเตอร์ Fix IT</h2>
             ซ่อมคอมพิวเตอร์, ซ่อม Notebook, ซ่อม Macbook, ซ่อม iMac, ซ่อม iPad, ซ่อม iPhone,
