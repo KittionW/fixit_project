@@ -119,7 +119,6 @@ if (isset($_GET['code'])) {
 
         .border_control {
             background: #ffffff7a;
-            width: 1200px;
             display: block;
             margin-right: auto;
             margin-left: auto;
